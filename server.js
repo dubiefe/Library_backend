@@ -1,7 +1,9 @@
 import express from "express";
+import cors from "cors";
 import { readFile, writeFile } from "fs/promises";
 
 const app = express();
+app.use(cors({ origin: "https://dubiefe.github.io" }));
 app.use(express.json());
 
 const DATA_FILE = "./data.json";
