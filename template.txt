@@ -1,0 +1,18 @@
+This is a template for the data of each users in the file data.json
+
+"user1": {
+    "books": [
+        {
+            "id":1,
+            "title": "Title",
+            "author": "Author",
+            "passages": [
+                {
+                    "id":1,
+                    "pages": [1,2,56],
+                    "comment": "I liked it!"
+                }
+            ]
+        }
+    ]
+}
